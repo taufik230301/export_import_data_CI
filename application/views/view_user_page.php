@@ -276,10 +276,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal_add_user">
                             Tambah User <i class="fas fa-plus"></i>
                         </button>
-                        <a role="button" class="btn btn-primary" href="<?= base_url(); ?>page_admin/cetak_laporan">
+                        <a role="button" class="btn btn-primary" href="<?= base_url(); ?>page_admin/cetak_laporan_pdf">
                             Cetak Laporan PDF <i class="fas fa-print"></i>
                         </a>
-                        <a role="button" class="btn btn-primary" href="<?= base_url(); ?>page_admin/cetak_laporan">
+                        <a role="button" class="btn btn-primary" href="<?= base_url(); ?>page_admin/cetak_laporan_excel">
                             Cetak Laporan EXCEL<i class="fas fa-print"></i>
                         </a>
                         <form action="<?= base_url();?>Page_admin/upload_file" enctype="multipart/form-data"
